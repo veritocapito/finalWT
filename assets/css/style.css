@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: 'Michroma', sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -22,6 +24,7 @@ a:hover{
     --lightYellow: #FBEEAC;
     --orange: #FF914D;
     --white: #fff;
+    --darkBlue: #0c0c45;
 }
 
 @media screen and (min-width: 320px) {
@@ -94,7 +97,6 @@ a:hover{
         gap: 1rem;
         width: 90vw;
         padding: 1rem;
-        font-family: 'Michroma', sans-serif;
     }
 
     .hero__profile{
@@ -171,6 +173,54 @@ a:hover{
         border-radius: 5px;
     }
 
+
+    /* Footer */
+    footer{
+        background-color: var(--darkBlue);
+        color: var(--white);
+    }
+
+    .credits{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 10rem;
+    }
+
+    .credits__content{
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .credits__content-img img{
+        width: 100px;
+    }
+
+    .credits__social{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+
+    .credits__social-item img{
+        width: 35px;
+    }
+
+    .copyright{
+        text-align: center;
+        font-size: 0.6rem;
+        padding: 3rem 0;
+        color: var(--lightBlue);
+    }
+
+    .back-to-top{
+        position: absolute;
+        right: 5%;
+    }
 }
 
 @media screen and (min-width: 425px) {
