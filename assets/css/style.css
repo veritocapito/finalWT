@@ -18,13 +18,15 @@ a:hover{
 }
 
 :root{
+    --darkBlue: #0c0c45;
     --bgBlue: #0049AE;
     --lightBlue: #75C2F6;
+    --xlBlue: #bbddf5;
     --bgYellow: #FFDE59;
     --lightYellow: #FBEEAC;
     --orange: #FF914D;
+    --bgOrange: #ec5f08;
     --white: #fff;
-    --darkBlue: #0c0c45;
 }
 
 @media screen and (min-width: 320px) {
@@ -116,15 +118,17 @@ a:hover{
         align-items: flex-start;
         color: var(--white);
         width: 80%;
+        text-shadow: 1px 1px 1px rgba(12, 12, 69, 0.5);
     }
 
     h1.name{
-        color: var(--bgBlue);
-        font-size: 1.8rem;
+        color: var(--bgYellow);
+        font-size: 1.9rem;
+        font-weight: bolder;
     }
 
     h3.hero__bio{
-        color: var(--bgYellow)
+        color: var(--bgBlue);
     }
 
     .hero__network{
@@ -151,28 +155,174 @@ a:hover{
         font-size: 0.8rem;
     }
 
+    /*     About */
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem 0;
+        background-color: var(--lightBlue);
+        font-family: 'Bricolage Grotesque', sans-serif;
+    }
+
+    .about__header{
+        display: flex;
+        gap: 2rem;
+        padding: 2rem 0;
+        flex-direction: column;
+        margin: 0 auto;
+        line-height: 1.5;
+        width: 80vw;
+    }
+
+    .about__header-title{
+        font-family: 'Michroma', sans-serif;
+        color: var(--white);
+        text-align: center;
+        padding: 2rem 0 1rem 0;
+        font-size: 1.5rem;
+        text-shadow: 1px 1px rgba(12, 12, 69, 0.5);
+    }
+
+    .about__footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+
+    .about__footer-title{
+        font-family: 'Michroma', sans-serif;
+        color: var(--bgYellow);
+        padding: 2rem 0;
+        font-size: 1.8rem;
+        text-shadow: 1px 1px rgba(12, 12, 69, 0.5);
+    }
+
+    .about__footer-info{
+        color: white;
+        background-color: var(--bgBlue);
+        padding: 1.5rem;
+        text-align: center;
+        width: 280px;
+        border-radius: 5px;
+    }
+
+    .about__footer-info:hover{
+        box-shadow: 1px 1px 1px 1px rgba(12, 12, 69, 0.2);
+        opacity: 0.9;
+    }
+
+    .info-icon{
+        margin-bottom: 10px;
+    }
+
+    .about__skills{
+        position: relative;
+        width: 300px ;
+        margin: 0 15px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background: var(--white);
+    }
+
+    .about__skills-item{
+        width: 100%;
+        margin: 25px 0;
+        font-weight: 600;
+    }
+
+    .skill-title{
+        display: block;
+        font-size: 1rem;
+        color: var(--bgOrange);
+    }
+
+    .skill-bar{
+        height: 10px;
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 5px;
+        background: rgba(12, 12, 69, 0.2);
+    }
+
+    .skill-1{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 30%;
+        border-radius: 5px;
+        background: var(--bgBlue);
+    }
+
+    .skill-2{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 40%;
+        border-radius: 5px;
+        background: var(--bgBlue);
+    }
+
+    .skill-3{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 60%;
+        border-radius: 5px;
+        background: var(--bgBlue);
+    }
+
+    .skill-4{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 85%;
+        border-radius: 5px;
+        background: var(--bgBlue);
+    }
+
+    .counter{
+        position: absolute;
+        top: -25px;
+        right: -25px;
+    }
+
+
+
     /* Projects */
 
     .projects{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         gap: 2rem;
         padding: 2rem 0;
         font-family: 'Bricolage Grotesque', sans-serif;
     }
     
     .projects__title{
-        font-size: 1.5rem;
-        color: var(--darkBlue);
+        font-family: 'Michroma', sans-serif;
+        color: var(--bgBlue);
+        padding: 2rem 0;
+        font-size: 1.7rem;
+        text-align: center;
+        text-shadow: 1px 1px rgba(12, 12, 69, 0.5);
     }
 
     .projects__box{
         width: 300px;
         padding: 1rem;
-        background-color: var(--bgYellow);
-        border: 3px solid var(--bgBlue);
-        box-shadow: 1px 1px 2px 0 rgba(12, 12, 69, 0.5);
+        background-color: var(--xlBlue);
+        border: 2px solid var(--darkBlue);
+        box-shadow: 1px 1px 3px 0px rgba(12, 12, 69, 0.5);
+        border-bottom: 8px solid var(--darkBlue);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
 
     .projects__info-title{
@@ -182,8 +332,7 @@ a:hover{
     .projects__img{
         width: 270px;
         height: 150px;
-        border: 3px solid var(--bgBlue);
-        box-shadow: 1px 1px 2px 0 rgba(12, 12, 69, 0.5);
+        border: 2px solid var(--darkBlue);
     }
 
     .projects__info-container{
@@ -222,6 +371,8 @@ a:hover{
     footer{
         background-color: var(--darkBlue);
         color: var(--white);
+        font-family: 'Michroma', sans-serif;
+        
     }
 
     .credits{
@@ -237,6 +388,13 @@ a:hover{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        font-size: 0.8rem;
+    }
+
+    .credits__content-text{
+        color: var(--bgOrange);
+        font-size: 1rem;
+        font-weight: bold;
     }
 
     .credits__content-img img{
@@ -256,15 +414,24 @@ a:hover{
 
     .copyright{
         text-align: center;
-        font-size: 0.6rem;
+        font-size: 0.65rem;
         padding: 3rem 0;
         color: var(--lightBlue);
     }
 
     .back-to-top{
-        position: absolute;
-        right: 5%;
+        position: fixed;
+        width: 30px;
+        height: 30px;
+        right: 2%;
+        bottom: 4%;
+        z-index: 100;
     }
+
+    .icon-up{
+        width: 100%;
+    }
+
 }
 
 @media screen and (min-width: 425px) {
