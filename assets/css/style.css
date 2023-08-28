@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Indie+Flower&family=Kaushan+Script&family=Michroma&family=Orbitron:wght@500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
 
 * {
     margin: 0;
@@ -27,6 +28,7 @@ a:hover{
     --orange: #FF914D;
     --bgOrange: #ec5f08;
     --white: #fff;
+    --lightGray: #ddd;
 }
 
 @media screen and (min-width: 320px) {
@@ -162,7 +164,7 @@ a:hover{
         align-items: center;
         gap: 2rem;
         padding: 2rem 0;
-        background-color: var(--lightBlue);
+        background-color: var(--xlBlue);
         font-family: 'Bricolage Grotesque', sans-serif;
     }
 
@@ -178,7 +180,7 @@ a:hover{
 
     .about__header-title{
         font-family: 'Michroma', sans-serif;
-        color: var(--white);
+        color: var(--orange);
         text-align: center;
         padding: 2rem 0 1rem 0;
         font-size: 1.5rem;
@@ -196,7 +198,7 @@ a:hover{
 
     .about__footer-title{
         font-family: 'Michroma', sans-serif;
-        color: var(--bgYellow);
+        color: var(--orange);
         padding: 2rem 0;
         font-size: 1.8rem;
         text-shadow: 1px 1px rgba(12, 12, 69, 0.5);
@@ -292,7 +294,6 @@ a:hover{
     }
 
 
-
     /* Projects */
 
     .projects{
@@ -301,8 +302,9 @@ a:hover{
         align-items: center;
         justify-content: center;
         gap: 2rem;
-        padding: 2rem 0;
+        padding: 5rem 0;
         font-family: 'Bricolage Grotesque', sans-serif;
+        border: 1px solid var(--lightGray);
     }
     
     .projects__title{
@@ -347,6 +349,7 @@ a:hover{
         display: flex;
         padding: 1rem 0;
     }
+
     .projects__button-repo{
         background-color: var(--bgBlue);
         color: var(--white);
@@ -361,11 +364,66 @@ a:hover{
         border: 1.5px solid var(--bgBlue);
     }
 
+
+    /* Education*/
+
+    .education{
+        text-align: center;
+        margin: 0 auto;
+        padding: 5rem 0;
+        background-color: var(--xlBlue) ;
+        position: relative;
+        width: 100%;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .education__title{
+        font-family: 'Michroma', sans-serif;
+        color: var(--bgBlue);
+        padding: 2rem 0;
+        font-size: 1.8rem;
+        text-shadow: 1px 1px rgba(12, 12, 69, 0.5);
+    }
+
+    .education__courses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0;
+        gap: 1rem;
+    }
+
+    .education__courses__box{
+        background-color: var(--white);
+        width: 260px;
+        padding: 2rem;
+        border: 1px solid var(--lightGray);
+    }
+
+    .education__courses__box:hover{
+        box-shadow: 0px 0px 5px 5px rgba(12,12,69,0.1);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .education__courses__item__img img{
+        width: 150px;
+    }
+
+    .education__courses__item-title{
+        color: var(--bgOrange);
+        font-weight: bold;
+        margin: 0.5rem 0;
+    }
+
+
+
     /* Contact */
     .contact{
         background-color: var(--lightBlue);
         color: var(--darkBlue);
     }
+
 
     /* Footer */
     footer{
