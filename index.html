@@ -57,7 +57,7 @@
             </div>
         </main>
         
-        <section class="about">
+        <section class="about" id="about">
             <div class="about__header">
                 <h2 class="about__header-title">About Me</h2>
                 <p class="about__header-text">Complementing my career as a professional accountant with web programming. Responsible, committed and determined. I believe in constant training and new challenges.</p>
@@ -277,22 +277,22 @@
 
         <section class="contact" id="contact">
             <div class="contact__container">
-                <div class="contact__title">
-                    <h2>Get In Touch</h2>
-                    <p>Have any project on mind? Let's talk!</p>
-                </div>
+                <h2 class="contact__title">Get In Touch</h2>
+                <h3>Have any project on mind?</h3>
+                <h3>Let's talk!</h3>
                 <div class="contact__box">
                     <div class="contact__box-icon">
-                        <i class="lni-map-marker"></i>
+                        <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <div class="contact__box-content">
                         <h6>Address</h6>
-                        <p>8639 Rivadavia Av. Buenos Aires , Argentina, 1407.</p>
+                        <p>8639 Rivadavia Av.</p>
+                        <p>Buenos Aires, Argentina, 1407.</p>
                     </div>
                 </div>
                 <div class="contact__box">
                     <div class="contact__box-icon">
-                        <i class="lni-phone"></i>
+                        <i class="fa-solid fa-mobile-retro"></i>
                     </div>
                     <div class="contact__box-content">
                         <h6>Phone</h6>
@@ -302,18 +302,18 @@
                 </div>
                 <div class="contact__box">
                     <div class="contact__box-icon">
-                        <i class="lni-envelope"></i>
+                        <i class="fa-solid fa-envelope"></i>
                     </div>
                     <div class="contact__box-content">
                         <h6>Email</h6>
-                        <p>veronica@estudiocapobianco.com.ar</p>
-                        <p>info@estudiocapobianco.com.ar</p>
+                        <p>veritocapito@gmail.com</p>
+                        <p>veritocapito@hotmail.com</p>
                     </div>
                 </div>
             </div>
 
-            <div class="contact-form pt-30">
-                <form id="contact-form" action="#">
+            <div class="contact__info">
+                <form class="contact__form" id="contact__form" action="#">
                     <div class="single-form">
                         <input type="text" name="name" placeholder="Name">
                     </div>
@@ -327,12 +327,12 @@
                     <div class="single-form">
                         <button class="main-btn" type="submit">Send Message</button>
                     </div>
+                    <div class="contact__map">
+                        <div class="gmap_canvas">                            
+                            <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.805976376371!2d-58.485437!3d-34.634343099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9962eee3bcd%3A0x55395d1108a894e7!2sComuna%2010%2C%20Av.%20Rivadavia%208639%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1692664789116!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div> 
                 </form>
-                <div class="contact-map mt-60">
-                    <div class="gmap_canvas">                            
-                        <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.805976376371!2d-58.485437!3d-34.634343099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9962eee3bcd%3A0x55395d1108a894e7!2sComuna%2010%2C%20Av.%20Rivadavia%208639%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1692664789116!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div> 
             </div>
         </section>
 
