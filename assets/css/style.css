@@ -76,7 +76,6 @@ a:hover{
     .nav__list-item:hover{
         width: 100%;
         text-align: center;
-
         background-color: rgba(39,39,150,1);
     }
 
@@ -139,14 +138,14 @@ a:hover{
 
     h1.name{
         color: var(--bgYellow);
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         font-weight: bold;
         text-align: center;
         
     }
 
     h3.hero__bio{
-        color: var(--bgBlue);
+        color: var(--lightBlue);
     }
 
     .hero__network{
@@ -204,47 +203,12 @@ a:hover{
         font-size: 1.5rem;
         text-shadow: 1px 1px rgba(12, 12, 69, 0.5);
     }
-
-    .about__footer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        margin: 2rem 0;
-    }
-
-    .about__footer-title{
-        font-family: 'Michroma', sans-serif;
-        color: var(--bgOrange);
-        padding: 2rem 0;
-        font-size: 1.8rem;
-        text-shadow: 1px 1px rgba(12, 12, 69, 0.5);
-    }
-
-    .about__footer-info{
-        color: var(--darkBlue);
-        background-color: var(--lightYellow);
-        padding: 1.5rem;
-        text-align: center;
-        width: 280px;
-        border-radius: 5px;
-    }
-
-    .about__footer-info:hover{
-        box-shadow: 1px 1px 1px 1px rgba(12, 12, 69, 0.2);
-        opacity: 0.9;
-    }
-
-    .info-icon{
-        margin-bottom: 10px;
-    }
-
+    
     .about__skills{
         position: relative;
         width: 300px ;
         margin: 0 15px;
-        padding: 10px 20px;
+        padding: 20px;
         border-radius: 5px;
         color: var(--darkBlue);
         background: var(--white);
@@ -311,6 +275,41 @@ a:hover{
         top: -25px;
         right: -25px;
     }
+
+    .about__footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .about__footer-title{
+        font-family: 'Michroma', sans-serif;
+        color: var(--bgOrange);
+        padding: 2rem 0;
+        font-size: 1.8rem;
+        text-shadow: 1px 1px rgba(12, 12, 69, 0.5);
+    }
+
+    .about__footer-info{
+        color: var(--darkBlue);
+        background-color: var(--lightYellow);
+        padding: 1.5rem;
+        text-align: center;
+        width: 280px;
+        border-radius: 5px;
+    }
+
+    .about__footer-info:hover{
+        box-shadow: 1px 1px 1px 1px rgba(12, 12, 69, 0.2);
+        opacity: 0.9;
+    }
+
+    .info-icon{
+        margin-bottom: 10px;
+    }
+
 
 
     /* Projects */

@@ -11,7 +11,9 @@
         <meta property="og:url" content="">
         <meta property="og:image" content="./assets/img/logoVCDev.png">
         <meta property="og:description" content="Hi, I'm Veronica Capobianco, web developer!">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/normalize.css"><link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="shortcut icon" href="./assets/img/vc.ico/favicon.ico" type="image/x-icon">
@@ -43,8 +45,8 @@
                 </div>
                 <div class="hero__feature">
                     <h2 class="hero__bio">Hi, I'm</h2>
-                    <h1 class="name">Verónica Capobianco</h1>
-                    <h3 class="hero__bio">Web Developer</h3>
+                    <h1 class="name animate__animated animate__zoomIn">Verónica Capobianco</h1>
+                    <h3 class="hero__bio animate__animated animate__zoomIn animate__delay-1s">Web Developer</h3>
                     <div class="hero__network">
                         <a href="https://github.com/veritocapito" target="_blank" class="hero__network-item"><img src="./assets/img/github.png"  alt="github"></a>
                         <a href="https://www.linkedin.com/in/vscapobianco/" target="_blank" class="hero__network-item"><img src="./assets/img/linkedin.png" alt="linkedin"></a>
@@ -114,8 +116,8 @@
                 </div>
             </div>
 
+            <h2 class="about__footer-title">Hire Me</h2>
             <ul class="about__footer">
-                <h2 class="about__footer-title">Hire Me</h2>
                 <li>
                     <div class="about__footer-info">
                         <div class="info-icon">
@@ -152,8 +154,9 @@
         <section class="projects" id="projects">
             <h2 class="projects__title">Projects</h2>
                 
-            <div class="projects__box">
-                <img class="projects__img zoom-img" src="./assets/img/ae_print.png">
+            <div class="projects__box" data-aos="fade-up"
+            data-aos-duration="1000">
+                <img class="projects__img zoom-img" src="./assets/img/ae_print.png" alt="project">
                 <div class="projects__info-container">
                     <h3 class="projects__info-title">Amazing Events</h3>
                     <h4 class="projects__info-text">Massive Events Website</h4>
@@ -164,9 +167,10 @@
                     </div>
                 </div>
             </div>
-            <div class="projects__box">
+            <div class="projects__box" data-aos="fade-up"
+            data-aos-duration="1000">
 
-                <img class="projects__img zoom-img" src="./assets/img/Sisters.png">
+                <img class="projects__img zoom-img" src="./assets/img/Sisters.png" alt="project">
                 <div class="projects__info-container">
                     <h3 class="projects__info-title">Sisters</h3>
                     <h4 class="projects__info-text">Fashion Store Landing Page</h4>
@@ -177,8 +181,9 @@
                     </div>
                 </div>
             </div>                
-            <div class="projects__box">
-                <img class="projects__img zoom-img" src="./assets/img/Nascostify.PNG">
+            <div class="projects__box" data-aos="fade-up"
+            data-aos-duration="1000">
+                <img class="projects__img zoom-img" src="./assets/img/Nascostify.PNG" alt="project">
                 <div class="projects__info-container">
                     <h3 class="projects__info-title">Nascostify Records</h3>
                     <h4 class="projects__info-text">Vintage Records Store</h4>
@@ -189,8 +194,9 @@
                     </div>
                 </div>
             </div>
-            <div class="projects__box">
-                <img class="projects__img zoom-img" src="./assets/img/LaFloresta.PNG">
+            <div class="projects__box" data-aos="fade-up"
+            data-aos-duration="1000">
+                <img class="projects__img zoom-img" src="./assets/img/LaFloresta.PNG" alt="project">
                 <div class="projects__info-container">
                     <h3 class="projects__info-title">Pizzeria La Floresta</h3>
                     <h4 class="projects__info-text">Gastronomic Landing Page</h4>
@@ -201,8 +207,9 @@
                     </div>
                 </div>
             </div>  
-            <div class="projects__box">
-                <img class="projects__img zoom-img" src="./assets/img/ec_print.png">
+            <div class="projects__box" data-aos="fade-up"
+            data-aos-duration="1000">
+                <img class="projects__img zoom-img" src="./assets/img/ec_print.png" alt="project">
                 <div class="projects__info-container">
                     <h3 class="projects__info-title">Estudio Capobianco</h3>
                     <h4 class="projects__info-text">Professional Landing Page</h4>
@@ -213,11 +220,12 @@
                     </div>
                 </div>
             </div>
-            <div class="projects__box">
-                <img class="projects__img zoom-img" src="./assets/img/mdhl_print.png">
+            <div class="projects__box" data-aos="fade-up"
+            data-aos-duration="1000">
+                <img class="projects__img zoom-img" src="./assets/img/mdhl_print.png" alt="project">
                 <div class="projects__info-container ">
                     <h3 class="projects__info-title">M.D. Hockey League</h3>
-                    <h4 class="projects__info-text">Mindhub First Project</h>
+                    <h4 class="projects__info-text">Mindhub First Project</h4>
                     <h5 class="projects__info-text2">Develop with HTML, CSS & Boostrap</h5>
                     <div class="projects__description">
                         <a href="https://github.com/veritocapito/MHDL_CAPOBIANCO/" target="_blank" class="projects__button-repo">Repository</a>
@@ -341,7 +349,7 @@
             <div class="credits">
                 <div class="credits__content">
                     <a href="#" class="credits__content-img">
-                        <img src="./assets/img/profile.png" alt="perfil">
+                        <img src="./assets/img/profile.png" data-aos="zoom-in-down" data-aos-duration="1000" alt="perfil">
                     </a>
                     <p class="credits__content-text">Veronica Capobianco</p>
                     <p>Web Developer</p>
@@ -359,5 +367,9 @@
         <a href="#" class="back-to-top">
             <img src="./assets/img/upload.png" alt="icon-up" class="icon-up">
         </a>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
