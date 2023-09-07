@@ -353,8 +353,8 @@ a:hover{
     .projects__text{
         width: 80%;
         color: var(--lightGray);
-        text-align: center;
         margin-bottom: 1rem;
+        line-height: 1.5;
     }
 
     .projects__box{
@@ -435,6 +435,13 @@ a:hover{
         align-items: center;
         gap: 2rem;
         margin: 2rem 0;
+    }
+
+    .education__courses-text{
+        width: 80%;
+        color: var(--lightGray);
+        margin-bottom: 1rem;
+        line-height: 1.5;
     }
 
     .education__courses__box{
