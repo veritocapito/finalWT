@@ -674,7 +674,6 @@ a:hover{
 
     .nav__list-item:hover{
         width: auto;
-        background-color: none;
     }
 
     label.menu{
