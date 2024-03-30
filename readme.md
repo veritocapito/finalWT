@@ -1,7 +1,7 @@
 # VeroDev Portfolio 
 
 
-[![portfolio-WT.png](https://i.postimg.cc/fTdBs273/portfolio-WT.png)](https://postimg.cc/RNMcQTD9)
+[![portfolio-WT.png](https://i.postimg.cc/sgTLTKSS/portfolio-WT.png)](https://postimg.cc/cv8THRF4)
 
 
 ## Final Assignment :mortar_board:

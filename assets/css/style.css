@@ -234,7 +234,7 @@ a:hover{
     .skill-title{
         display: block;
         font-size: 1rem;
-        color: var(--bgOrange);
+        color: var(--darkBlue);
     }
 
     .skill-bar{
@@ -251,7 +251,7 @@ a:hover{
         height: 100%;
         width: 30%;
         border-radius: 5px;
-        background: var(--bgBlue);
+        background: var(--bgOrange);
     }
 
     .skill-2{
@@ -260,7 +260,7 @@ a:hover{
         height: 100%;
         width: 40%;
         border-radius: 5px;
-        background: var(--bgBlue);
+        background: var(--bgOrange);
     }
 
     .skill-3{
@@ -269,7 +269,7 @@ a:hover{
         height: 100%;
         width: 60%;
         border-radius: 5px;
-        background: var(--bgBlue);
+        background: var(--bgOrange);
     }
 
     .skill-4{
@@ -278,7 +278,7 @@ a:hover{
         height: 100%;
         width: 85%;
         border-radius: 5px;
-        background: var(--bgBlue);
+        background: var(--bgOrange);
     }
 
     .counter{
@@ -307,7 +307,7 @@ a:hover{
 
     .about__footer-info{
         color: var(--darkBlue);
-        background-color: var(--lightYellow);
+        background-color: var(--xlBlue);
         padding: 1.5rem;
         text-align: center;
         width: 280px;
@@ -554,7 +554,7 @@ a:hover{
         border: 1px solid #ddd;
         padding: 0 25px;
         font-size: 16px;
-        color: #8a8fa3;
+        color: var(--darkBlue);
     }
 
     .single-form textarea{
@@ -625,7 +625,7 @@ a:hover{
     }
 
     .credits__content-img img{
-        width: 100px;
+        width: 150px;
     }
 
     .credits__social{
